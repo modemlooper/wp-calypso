@@ -60,7 +60,8 @@ export const ThemesList = React.createClass( {
 			optionsGenerator: () => [],
 			getActionLabel: () => '',
 			isActive: () => false,
-			isPurchased: () => false
+			isPurchased: () => false,
+			isInstalling: () => false
 		};
 	},
 
